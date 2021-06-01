@@ -1,0 +1,29 @@
+h1
+{
+    text-align: center;
+    font-family:cursive;
+    
+}
+body{
+    background: #bbc7ce;
+}
+.jumbotron
+{
+    background: #a8b8c2;
+}
+#searchButton, div li
+{
+    background: #a8b8c2;
+    font-family:cursive;
+    margin-top: 20px;
+    border-radius: 16px;
+background: #bbc7ce;
+box-shadow: inset 50px 50px 100px #949da3,
+            inset -50px -50px 100px #e2f1f9;
+}
+main{
+    text-align: center;
+}
+main ul li{
+    text-align: justify;
+}

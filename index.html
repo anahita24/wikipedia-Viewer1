@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./index.css">
+    <title>Wikipedia Viewer</title>
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <div class="container">
+    <header >
+      <h1 class="jumbotron">Wikipedia Viewer</h1>
+    </header>
+    <main class="container">
+      <div class="input-group">
+        <div class="input-group-addon">
+          <span class="glyphicon glyphicon-search"></span> 
+           </div>
+        <input type="text" id="inputId" placeholder="wikipedia" class="form-control"/>
+      </div>
+      <input id="searchButton" type="button" value="Search" class="btn btn-lg btn-outline-dark" />
+     <ul class="list-group">
+      <div id="WikipediaList">
+      </div></ul>
+    </main>
+    <footer></footer>
+  </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
